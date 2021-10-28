@@ -10,8 +10,8 @@
      - `docker run -itd --name qaaisystem --restart always -p 5000:5000 jsrdxzw/qaaisystem:v1`
   4. 默认运行在5000端口
 + 也可以直接pull 已经打包好的镜像
-  + `docker pull jsrdxzw/qaaisystem:v1`
-  + `docker run -itd --name qaaisystem --restart always -p 5000:5000 jsrdxzw/qaaisystem:v1`
+  + `docker pull jsrdxzw/qaaisystem:v2`
+  + `docker run -itd --name qaaisystem --restart always -p 5000:5000 jsrdxzw/qaaisystem:v2`
 
 #### 文本关键词提取
 本接口采用**textrank**算法，分词并计算有向图，计算词语的权重
